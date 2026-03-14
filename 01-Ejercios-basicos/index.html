@@ -17,7 +17,7 @@
             <p>Mis hobbies son jugar videojuegos, programar y escuchar música. Me gusta mucho la música <br> de diferentes géneros. En cuanto a los videojuegos, me gusta jugar survaivor horror.
             </p>
         <hr>
-            <p>En el futuro, quiero desarrollar un videojuego propio, que a las personas les guste.<br> También quiero seguir aprendiendo sobre programación y desarrollo de software.
+            <p>En el futuro, quiero desarrollar un <u>videojuego propio</u>, que a las personas les guste.<br> También quiero seguir aprendiendo sobre programación y desarrollo de software.
             </p>
         <hr>
             <p>Mi comida favorita es la <code>pizza</code>. Mi serie favorita es <code>Doctor House</code>. Y mi<br> videojuego favorito es <code>Cronos: The new dawn</code></p>
@@ -66,23 +66,17 @@
     <dialog open>
         <h2>Formulario de contacto</h2>
         <form>
-            <label for="comentario">Comentario:</label><br>
-            <input type="text" id="comentario" name="comentario">
+            <label for="comentario">Comentario:</label>
+            <input type="text" placeholder="Escribe tu comentario aquí">
             <hr>
-            <h2>Leguaje preferido</h2>
-            <hr>
-                <label for="javascript">JavaScript</label>
-                <input type="checkbox" id="javascript" name="javascript">
-            <br>
-                <label for="html">HTML</label>
-                <input type="checkbox" id="html" name="html">
-            <br>
-                <label for="css">CSS</label>
-                <input type="checkbox" id="css" name="css">
-            <br>
-            
-            <hr>
-            <input type="submit" value="Enviar">
+            <h3>Selecciona tu lenguaje preferido entre <br> estos tres:</h3>
+             <select>
+            <option value="javascript">JavaScript</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+        </select>
+        <hr>
+        <input required type="submit" value="Enviar">
         </form>
     </dialog>
     </section-3>
